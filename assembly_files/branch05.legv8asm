@@ -1,0 +1,8 @@
+SUBS XZR, X11, X10
+B.GT endCompare
+ADDI X7, XZR, #0
+
+endCompare:
+    B return
+
+return:
